@@ -3,9 +3,9 @@ package presentation
 import (
 	"testing"
 
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/schema/soo/dml"
-	"github.com/unidoc/unioffice/schema/soo/pml"
+	"github.com/IGLOU-EU/unioffice/common"
+	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
+	"github.com/IGLOU-EU/unioffice/schema/soo/pml"
 )
 
 func TestRemoveChoicesWithPics(t *testing.T) {

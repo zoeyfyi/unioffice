@@ -13,9 +13,9 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/math"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/IGLOU-EU/unioffice"
+	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/math"
+	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 type CT_Hyperlink struct {

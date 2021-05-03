@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/unidoc/unioffice"
+	"github.com/IGLOU-EU/unioffice"
 )
 
 type CT_RPrChange struct {

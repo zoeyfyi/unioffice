@@ -10,11 +10,11 @@ package document
 import (
 	"fmt"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/IGLOU-EU/unioffice"
+	"github.com/IGLOU-EU/unioffice/color"
+	"github.com/IGLOU-EU/unioffice/measurement"
+	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
 )
 
 // ParagraphProperties are the properties for a paragraph.

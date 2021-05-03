@@ -4,12 +4,12 @@ package main
 import (
 	"log"
 
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
 
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/presentation"
+	"github.com/IGLOU-EU/unioffice/color"
+	"github.com/IGLOU-EU/unioffice/common"
+	"github.com/IGLOU-EU/unioffice/measurement"
+	"github.com/IGLOU-EU/unioffice/presentation"
 )
 
 const lorem = "Lorem ipsum dolor sit amet."

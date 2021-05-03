@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/purl.org/dc/elements"
+	"github.com/IGLOU-EU/unioffice/schema/purl.org/dc/elements"
 )
 
 func TestElementsGroupChoiceConstructor(t *testing.T) {

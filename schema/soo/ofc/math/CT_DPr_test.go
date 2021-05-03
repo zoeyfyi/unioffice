@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/ofc/math"
+	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/math"
 )
 
 func TestCT_DPrConstructor(t *testing.T) {

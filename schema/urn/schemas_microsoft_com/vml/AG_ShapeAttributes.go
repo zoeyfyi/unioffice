@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 type AG_ShapeAttributes struct {

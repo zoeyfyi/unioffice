@@ -10,7 +10,7 @@ package spreadsheet_test
 import (
 	"testing"
 
-	"github.com/unidoc/unioffice/spreadsheet"
+	"github.com/IGLOU-EU/unioffice/spreadsheet"
 )
 
 var standardFmtTestData = []struct {

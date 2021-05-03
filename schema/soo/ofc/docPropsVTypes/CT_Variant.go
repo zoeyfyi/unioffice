@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/IGLOU-EU/unioffice"
+	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 type CT_Variant struct {

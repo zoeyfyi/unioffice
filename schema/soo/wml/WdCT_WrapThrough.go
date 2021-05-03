@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/unidoc/unioffice"
+	"github.com/IGLOU-EU/unioffice"
 )
 
 type WdCT_WrapThrough struct {

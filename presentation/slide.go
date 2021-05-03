@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/unidoc/unioffice"
+	"github.com/IGLOU-EU/unioffice"
 
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/measurement"
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/IGLOU-EU/unioffice/common"
+	"github.com/IGLOU-EU/unioffice/measurement"
+	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
 
-	"github.com/unidoc/unioffice/schema/soo/pml"
+	"github.com/IGLOU-EU/unioffice/schema/soo/pml"
 )
 
 // Slide represents a slide of a presentation.

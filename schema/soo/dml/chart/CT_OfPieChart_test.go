@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/IGLOU-EU/unioffice/schema/soo/dml/chart"
 )
 
 func TestCT_OfPieChartConstructor(t *testing.T) {

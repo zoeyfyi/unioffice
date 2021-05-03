@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/dml/chartDrawing"
+	"github.com/IGLOU-EU/unioffice/schema/soo/dml/chartDrawing"
 )
 
 func TestEG_ObjectChoicesChoiceConstructor(t *testing.T) {

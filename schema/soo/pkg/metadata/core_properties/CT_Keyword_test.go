@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties"
+	"github.com/IGLOU-EU/unioffice/schema/soo/pkg/metadata/core_properties"
 )
 
 func TestCT_KeywordConstructor(t *testing.T) {

@@ -4,11 +4,11 @@ package main
 import (
 	"log"
 
-	"github.com/unidoc/unioffice/measurement"
+	"github.com/IGLOU-EU/unioffice/measurement"
 
-	"github.com/unidoc/unioffice/common"
+	"github.com/IGLOU-EU/unioffice/common"
 
-	"github.com/unidoc/unioffice/presentation"
+	"github.com/IGLOU-EU/unioffice/presentation"
 )
 
 func main() {

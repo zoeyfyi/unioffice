@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/dml"
+	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
 )
 
 func TestCT_RatioConstructor(t *testing.T) {

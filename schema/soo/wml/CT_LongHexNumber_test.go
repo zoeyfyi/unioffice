@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/unidoc/unioffice/schema/soo/wml"
+	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
 )
 
 func TestCT_LongHexNumberConstructor(t *testing.T) {

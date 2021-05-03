@@ -12,7 +12,7 @@ package custom_properties
 import (
 	"encoding/xml"
 
-	"github.com/unidoc/unioffice"
+	"github.com/IGLOU-EU/unioffice"
 )
 
 type Properties struct {

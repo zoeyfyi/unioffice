@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/unidoc/unioffice"
+	"github.com/IGLOU-EU/unioffice"
 )
 
 type QueryTable struct {

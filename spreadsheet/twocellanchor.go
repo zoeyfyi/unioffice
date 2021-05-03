@@ -8,8 +8,8 @@
 package spreadsheet
 
 import (
-	"github.com/unidoc/unioffice/measurement"
-	sd "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing"
+	"github.com/IGLOU-EU/unioffice/measurement"
+	sd "github.com/IGLOU-EU/unioffice/schema/soo/dml/spreadsheetDrawing"
 )
 
 // TwoCellAnchor is an anchor that is attached to a top-left cell with a fixed

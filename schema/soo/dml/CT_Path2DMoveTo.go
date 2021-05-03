@@ -12,7 +12,7 @@ package dml
 import (
 	"encoding/xml"
 
-	"github.com/unidoc/unioffice"
+	"github.com/IGLOU-EU/unioffice"
 )
 
 type CT_Path2DMoveTo struct {

@@ -13,9 +13,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/unidoc/unioffice/common"
-	"github.com/unidoc/unioffice/testhelper"
-	"github.com/unidoc/unioffice/zippkg"
+	"github.com/IGLOU-EU/unioffice/common"
+	"github.com/IGLOU-EU/unioffice/testhelper"
+	"github.com/IGLOU-EU/unioffice/zippkg"
 )
 
 func TestThemeUnmarshal(t *testing.T) {

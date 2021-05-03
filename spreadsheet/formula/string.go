@@ -10,7 +10,7 @@ package formula
 import (
 	"strings"
 
-	"github.com/unidoc/unioffice/spreadsheet/update"
+	"github.com/IGLOU-EU/unioffice/spreadsheet/update"
 )
 
 // String is a string expression.

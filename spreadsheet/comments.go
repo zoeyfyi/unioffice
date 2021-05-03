@@ -8,10 +8,10 @@
 package spreadsheet
 
 import (
-	"github.com/unidoc/unioffice/color"
-	"github.com/unidoc/unioffice/schema/soo/sml"
-	"github.com/unidoc/unioffice/spreadsheet/reference"
-	"github.com/unidoc/unioffice/vmldrawing"
+	"github.com/IGLOU-EU/unioffice/color"
+	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/IGLOU-EU/unioffice/spreadsheet/reference"
+	"github.com/IGLOU-EU/unioffice/vmldrawing"
 )
 
 // Comments is the container for comments for a single sheet.

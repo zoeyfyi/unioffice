@@ -13,9 +13,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/unidoc/unioffice"
-	"github.com/unidoc/unioffice/spreadsheet"
-	"github.com/unidoc/unioffice/spreadsheet/reference"
+	"github.com/IGLOU-EU/unioffice"
+	"github.com/IGLOU-EU/unioffice/spreadsheet"
+	"github.com/IGLOU-EU/unioffice/spreadsheet/reference"
 )
 
 func TestRowNumIncreases(t *testing.T) {
