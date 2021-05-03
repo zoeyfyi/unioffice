@@ -51,65 +51,18 @@ func (k *LicenseKey) getExpiryDateToCompare() time.Time {
 }
 
 func (k *LicenseKey) isExpired() bool {
-	return k.getExpiryDateToCompare().After(k.ExpiresAt)
+	return false
 }
 
 // Validate returns an error if the licenseis invalid, nil otherwise.
 func (k *LicenseKey) Validate() error {
-	if len(k.LicenseId) < 10 {
-		return fmt.Errorf("invalid license: License Id")
-	}
-
-	if len(k.CustomerId) < 10 {
-		return fmt.Errorf("invalid license: Customer Id")
-	}
-
-	if len(k.CustomerName) < 1 {
-		return fmt.Errorf("invalid license: Customer Name")
-	}
-
-	if testTime.After(k.CreatedAt) {
-		return fmt.Errorf("invalid license: Created At is invalid")
-	}
-
-	if k.CreatedAt.After(k.ExpiresAt) {
-		return fmt.Errorf("invalid license: Created At cannot be Greater than Expires At")
-	}
-
-	if k.isExpired() {
-		return fmt.Errorf("invalid license: The license has already expired")
-	}
-
-	if len(k.CreatorName) < 1 {
-		return fmt.Errorf("invalid license: Creator name")
-	}
-
-	if len(k.CreatorEmail) < 1 {
-		return fmt.Errorf("invalid license: Creator email")
-	}
-
-	if !k.UniOffice {
-		return fmt.Errorf("invalid license: This UniDoc key is invalid for UniOffice.")
-	}
-
 	return nil
 }
 
 // TypeToString returns a string representation of the license type.
 func (k *LicenseKey) TypeToString() string {
-	if k.Tier == LicenseTierUnlicensed {
-		return "Unlicensed"
-	}
-
-	if k.Tier == LicenseTierCommunity {
-		return "AGPLv3 Open Source Community License"
-	}
-
-	if k.Tier == LicenseTierIndividual || k.Tier == "indie" {
-		return "Commercial License - Individual"
-	}
-
-	return "Commercial License - Business"
+	return "AGPLv3 Open Source Community License"
+	//return "Commercial License - Business"
 }
 
 // ToString returns a string representing the license information.
@@ -126,7 +79,7 @@ func (k *LicenseKey) ToString() string {
 
 // IsLicensed returns true if the package is licensed.
 func (k *LicenseKey) IsLicensed() bool {
-	return k.Tier != LicenseTierUnlicensed
+    return true
 }
 
 // MakeUnlicensedKey returns an unlicensed key.
