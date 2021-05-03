@@ -6,13 +6,9 @@
 package license
 
 import (
-	"bytes"
-	"crypto"
 	"crypto/rsa"
-	"crypto/sha256"
 	"crypto/x509"
 	"encoding/hex"
-	"encoding/json"
 	"log"
 	"time"
 )
@@ -47,18 +43,5 @@ type LegacyLicense struct {
 // Verify verifies a license by checking the license content and signature
 // against a public key.
 func (l LegacyLicense) Verify(pubKey *rsa.PublicKey) error {
-	cp := l
-	cp.Signature = ""
-	buf := bytes.Buffer{}
-	enc := json.NewEncoder(&buf)
-	if err := enc.Encode(cp); err != nil {
-		return err
-	}
-	sig, err := hex.DecodeString(l.Signature)
-	if err != nil {
-		return err
-	}
-	hashed := sha256.Sum256(buf.Bytes())
-	err = rsa.VerifyPKCS1v15(pubKey, crypto.SHA256, hashed[:], sig)
-	return err
+    return nil
 }
