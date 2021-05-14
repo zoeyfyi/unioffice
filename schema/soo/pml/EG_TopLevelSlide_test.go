@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/pml"
+	"github.com/zoeyfyi/unioffice/schema/soo/pml"
 )
 
 func TestEG_TopLevelSlideConstructor(t *testing.T) {

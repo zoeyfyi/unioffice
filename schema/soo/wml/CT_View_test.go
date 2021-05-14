@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 func TestCT_ViewConstructor(t *testing.T) {

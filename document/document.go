@@ -20,17 +20,17 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/color"
-	"github.com/IGLOU-EU/unioffice/common"
-	"github.com/IGLOU-EU/unioffice/common/license"
-	"github.com/IGLOU-EU/unioffice/measurement"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/color"
+	"github.com/zoeyfyi/unioffice/common"
+	"github.com/zoeyfyi/unioffice/common/license"
+	"github.com/zoeyfyi/unioffice/measurement"
+	"github.com/zoeyfyi/unioffice/zippkg"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
-	st "github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pkg/relationships"
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	st "github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/zoeyfyi/unioffice/schema/soo/pkg/relationships"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // Document is a text document that can be written out in the OOXML .docx
@@ -1153,14 +1153,14 @@ func (d Document) Bookmarks() []Bookmark {
 }
 
 // SetConformance sets conformance attribute of the document
-// as one of these values from github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (d Document) SetConformance(conformanceAttr st.ST_ConformanceClass) {
 	d.x.ConformanceAttr = conformanceAttr
 }
 
 // SetStrict is a shortcut for document.SetConformance,
-// as one of these values from github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes:
+// as one of these values from github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes:
 // ST_ConformanceClassUnset, ST_ConformanceClassStrict or ST_ConformanceClassTransitional.
 func (d Document) SetStrict(strict bool) {
 	if strict {

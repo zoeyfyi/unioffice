@@ -10,8 +10,8 @@ package spreadsheet
 import (
 	"errors"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
 )
 
 // StyleSheet is a document style sheet.

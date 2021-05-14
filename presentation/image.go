@@ -8,9 +8,9 @@
 package presentation
 
 import (
-	"github.com/IGLOU-EU/unioffice/drawing"
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pml"
+	"github.com/zoeyfyi/unioffice/drawing"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/zoeyfyi/unioffice/schema/soo/pml"
 )
 
 // Image is an image within a slide.

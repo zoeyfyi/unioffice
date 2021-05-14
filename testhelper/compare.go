@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 var update = flag.Bool("test.update", false, "update golden file")

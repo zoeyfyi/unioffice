@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
 )
 
 func TestCT_GvmlPictureConstructor(t *testing.T) {

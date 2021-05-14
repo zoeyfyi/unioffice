@@ -12,7 +12,7 @@ package content_types
 import (
 	"encoding/xml"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 type Types struct {

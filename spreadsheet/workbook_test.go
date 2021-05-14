@@ -14,11 +14,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
 
-	"github.com/IGLOU-EU/unioffice/spreadsheet"
-	"github.com/IGLOU-EU/unioffice/testhelper"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice/spreadsheet"
+	"github.com/zoeyfyi/unioffice/testhelper"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 func TestSimpleWorkbook(t *testing.T) {

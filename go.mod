@@ -1,3 +1,3 @@
-module github.com/IGLOU-EU/unioffice
+module github.com/zoeyfyi/unioffice
 
 go 1.16

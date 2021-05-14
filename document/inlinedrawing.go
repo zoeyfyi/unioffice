@@ -8,10 +8,10 @@
 package document
 
 import (
-	"github.com/IGLOU-EU/unioffice/common"
-	"github.com/IGLOU-EU/unioffice/measurement"
-	pic "github.com/IGLOU-EU/unioffice/schema/soo/dml/picture"
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/common"
+	"github.com/zoeyfyi/unioffice/measurement"
+	pic "github.com/zoeyfyi/unioffice/schema/soo/dml/picture"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // InlineDrawing is an inlined image within a run.

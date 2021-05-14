@@ -8,8 +8,8 @@
 package spreadsheet
 
 import (
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
 )
 
 // SheetView is a view of a sheet. There is typically one per sheet, though more

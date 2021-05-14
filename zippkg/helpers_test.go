@@ -8,7 +8,7 @@
 package zippkg_test
 
 import "testing"
-import "github.com/IGLOU-EU/unioffice/zippkg"
+import "github.com/zoeyfyi/unioffice/zippkg"
 
 func TestRelsPathFor(t *testing.T) {
 	td := []struct {

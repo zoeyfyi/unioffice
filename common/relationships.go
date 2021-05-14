@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pkg/relationships"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/pkg/relationships"
 )
 
 // Relationships represents a .rels file.

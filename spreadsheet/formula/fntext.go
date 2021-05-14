@@ -14,8 +14,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/IGLOU-EU/unioffice/internal/wildcard"
-	"github.com/IGLOU-EU/unioffice/spreadsheet/format"
+	"github.com/zoeyfyi/unioffice/internal/wildcard"
+	"github.com/zoeyfyi/unioffice/spreadsheet/format"
 )
 
 func init() {

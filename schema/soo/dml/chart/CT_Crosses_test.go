@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml/chart"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml/chart"
 )
 
 func TestCT_CrossesConstructor(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/IGLOU-EU/unioffice/color"
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
-	"github.com/IGLOU-EU/unioffice/spreadsheet"
+	"github.com/zoeyfyi/unioffice/color"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice/spreadsheet"
 )
 
 func main() {

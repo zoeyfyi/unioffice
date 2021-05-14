@@ -12,8 +12,8 @@ package wml
 import (
 	"encoding/xml"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
 )
 
 type WdCT_WordprocessingContentPartNonVisual struct {

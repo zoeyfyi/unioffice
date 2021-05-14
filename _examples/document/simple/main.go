@@ -4,10 +4,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/IGLOU-EU/unioffice/color"
-	"github.com/IGLOU-EU/unioffice/document"
-	"github.com/IGLOU-EU/unioffice/measurement"
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/color"
+	"github.com/zoeyfyi/unioffice/document"
+	"github.com/zoeyfyi/unioffice/measurement"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 func main() {

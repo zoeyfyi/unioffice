@@ -9,7 +9,7 @@
 
 package powerpoint
 
-import "github.com/IGLOU-EU/unioffice"
+import "github.com/zoeyfyi/unioffice"
 
 // init registers constructor functions for dynamically creating elements based off the XML namespace and name
 func init() {

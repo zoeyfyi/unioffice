@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml/picture"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml/picture"
 )
 
 func TestCT_PictureNonVisualConstructor(t *testing.T) {

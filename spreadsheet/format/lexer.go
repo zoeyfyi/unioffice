@@ -12,7 +12,7 @@ package format
 import (
 	"io"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 //line lexer.go:20

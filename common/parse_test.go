@@ -10,7 +10,7 @@ package common_test
 import (
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // Fields of these types must be integers per the spec, but Google doc

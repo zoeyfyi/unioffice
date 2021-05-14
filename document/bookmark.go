@@ -7,7 +7,7 @@
 
 package document
 
-import "github.com/IGLOU-EU/unioffice/schema/soo/wml"
+import "github.com/zoeyfyi/unioffice/schema/soo/wml"
 
 // Bookmark is a bookmarked location within a document that can be referenced
 // with a hyperlink.

@@ -13,10 +13,10 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/excel"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 type Oval struct {

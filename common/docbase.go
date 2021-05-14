@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"image"
 
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 // DocBase is the type embedded in in the Document/Workbook/Presentation types

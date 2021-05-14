@@ -8,9 +8,9 @@
 package document
 
 import (
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/common"
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/common"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // HyperLink is a link within a document.

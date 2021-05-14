@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml/chartDrawing"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml/chartDrawing"
 )
 
 func TestCT_RelSizeAnchorConstructor(t *testing.T) {

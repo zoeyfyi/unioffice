@@ -13,9 +13,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/common"
-	"github.com/IGLOU-EU/unioffice/testhelper"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice/common"
+	"github.com/zoeyfyi/unioffice/testhelper"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 func TestContentTypesUnmarshal(t *testing.T) {

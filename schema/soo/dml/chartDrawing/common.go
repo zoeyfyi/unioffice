@@ -9,7 +9,7 @@
 
 package chartDrawing
 
-import "github.com/IGLOU-EU/unioffice"
+import "github.com/zoeyfyi/unioffice"
 
 func b2i(b bool) uint8 {
 	if b {

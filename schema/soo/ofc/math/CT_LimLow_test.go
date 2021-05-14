@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/math"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/math"
 )
 
 func TestCT_LimLowConstructor(t *testing.T) {

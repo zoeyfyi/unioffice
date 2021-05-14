@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/IGLOU-EU/unioffice/common"
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pml"
+	"github.com/zoeyfyi/unioffice/common"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/zoeyfyi/unioffice/schema/soo/pml"
 
-	"github.com/IGLOU-EU/unioffice/presentation"
+	"github.com/zoeyfyi/unioffice/presentation"
 )
 
 func main() {

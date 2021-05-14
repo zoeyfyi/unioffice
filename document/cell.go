@@ -7,7 +7,7 @@
 
 package document
 
-import "github.com/IGLOU-EU/unioffice/schema/soo/wml"
+import "github.com/zoeyfyi/unioffice/schema/soo/wml"
 
 // Cell is a table cell within a document (not a spreadsheet)
 type Cell struct {

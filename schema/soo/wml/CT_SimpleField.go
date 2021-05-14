@@ -13,9 +13,9 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/math"
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/math"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 type CT_SimpleField struct {

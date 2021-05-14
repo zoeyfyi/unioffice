@@ -18,10 +18,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 
-	"github.com/IGLOU-EU/unioffice/algo"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pkg/relationships"
+	"github.com/zoeyfyi/unioffice/algo"
+	"github.com/zoeyfyi/unioffice/schema/soo/pkg/relationships"
 )
 
 // RelationsPathFor returns the relations path for a given filename.

@@ -11,7 +11,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 //go:generate goyacc -l -o grammar.go  grammar.y

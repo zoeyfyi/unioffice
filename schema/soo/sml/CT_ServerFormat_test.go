@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
 )
 
 func TestCT_ServerFormatConstructor(t *testing.T) {

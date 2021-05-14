@@ -14,8 +14,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/IGLOU-EU/unioffice/document"
-	"github.com/IGLOU-EU/unioffice/spreadsheet"
+	"github.com/zoeyfyi/unioffice/document"
+	"github.com/zoeyfyi/unioffice/spreadsheet"
 )
 
 func main() {

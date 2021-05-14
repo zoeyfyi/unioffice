@@ -15,8 +15,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 // Read reads a workbook from an io.Reader(.xlsx).

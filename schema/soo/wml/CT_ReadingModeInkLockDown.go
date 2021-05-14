@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 type CT_ReadingModeInkLockDown struct {

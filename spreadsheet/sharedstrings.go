@@ -9,8 +9,8 @@ package spreadsheet
 import (
 	"fmt"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
 )
 
 // SharedStrings is a shared strings table, where string data can be placed

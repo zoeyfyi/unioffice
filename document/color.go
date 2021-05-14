@@ -10,8 +10,8 @@ package document
 import (
 	"fmt"
 
-	"github.com/IGLOU-EU/unioffice/color"
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/color"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // Color controls the run or styles color.

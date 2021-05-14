@@ -8,9 +8,9 @@
 package spreadsheet
 
 import (
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/color"
-	"github.com/IGLOU-EU/unioffice/schema/soo/sml"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/color"
+	"github.com/zoeyfyi/unioffice/schema/soo/sml"
 )
 
 // ColorScale colors a cell background based off of the cell value.

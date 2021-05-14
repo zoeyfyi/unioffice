@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/pkg/content_types"
+	"github.com/zoeyfyi/unioffice/schema/soo/pkg/content_types"
 )
 
 func TestCT_DefaultConstructor(t *testing.T) {

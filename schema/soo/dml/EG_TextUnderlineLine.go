@@ -12,7 +12,7 @@ package dml
 import (
 	"encoding/xml"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 type EG_TextUnderlineLine struct {

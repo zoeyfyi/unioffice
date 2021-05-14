@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/IGLOU-EU/unioffice/document"
+	"github.com/zoeyfyi/unioffice/document"
 )
 
 func ExampleNew() {

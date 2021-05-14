@@ -7,7 +7,7 @@
 
 package formula
 
-import "github.com/IGLOU-EU/unioffice/spreadsheet/reference"
+import "github.com/zoeyfyi/unioffice/spreadsheet/reference"
 
 // updateColumnToLeft gets a column reference string representation like JJ, parses it and makes a string representation of a new reference with respect to the update type in the case of a column to the left of this reference was removed (e.g. JI).
 func updateColumnToLeft(column string, colIdxToRemove uint32) string {

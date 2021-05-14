@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/purl.org/dc/terms"
+	"github.com/zoeyfyi/unioffice/schema/purl.org/dc/terms"
 )
 
 func TestElementsAndRefinementsGroupConstructor(t *testing.T) {

@@ -10,8 +10,8 @@ package chart_test
 import (
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/chart"
-	crt "github.com/IGLOU-EU/unioffice/schema/soo/dml/chart"
+	"github.com/zoeyfyi/unioffice/chart"
+	crt "github.com/zoeyfyi/unioffice/schema/soo/dml/chart"
 )
 
 func TestTitle(t *testing.T) {

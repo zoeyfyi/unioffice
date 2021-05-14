@@ -10,8 +10,8 @@ package formula
 import (
 	"strconv"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/spreadsheet/update"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/spreadsheet/update"
 )
 
 // Number is a nubmer expression.

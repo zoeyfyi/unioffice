@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml/diagram"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml/diagram"
 )
 
 func TestCT_DiagramDefinitionHeaderLstConstructor(t *testing.T) {

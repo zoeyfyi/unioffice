@@ -14,11 +14,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/excel"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 type CT_Shape struct {

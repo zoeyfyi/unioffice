@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml/lockedCanvas"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml/lockedCanvas"
 )
 
 func TestLockedCanvasConstructor(t *testing.T) {

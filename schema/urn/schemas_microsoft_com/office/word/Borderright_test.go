@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 func TestBorderrightConstructor(t *testing.T) {

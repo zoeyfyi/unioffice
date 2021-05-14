@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/document"
-	"github.com/IGLOU-EU/unioffice/testhelper"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice/document"
+	"github.com/zoeyfyi/unioffice/testhelper"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 func TestStylesUnmarshal(t *testing.T) {

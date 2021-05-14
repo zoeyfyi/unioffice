@@ -12,7 +12,7 @@ package diagram
 import (
 	"encoding/xml"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 type CT_LayoutVariablePropertySet struct {

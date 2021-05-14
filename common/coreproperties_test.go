@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/IGLOU-EU/unioffice/common"
-	"github.com/IGLOU-EU/unioffice/document"
-	"github.com/IGLOU-EU/unioffice/testhelper"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice/common"
+	"github.com/zoeyfyi/unioffice/document"
+	"github.com/zoeyfyi/unioffice/testhelper"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 func TestMarshalCoreProperties(t *testing.T) {

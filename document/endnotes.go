@@ -8,7 +8,7 @@
 package document
 
 import (
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // Endnote is an individual endnote reference within the document.

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/IGLOU-EU/unioffice"
+	"github.com/zoeyfyi/unioffice"
 )
 
 // constants used when formatting generic values to determine when to start

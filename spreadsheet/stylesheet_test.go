@@ -14,9 +14,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/spreadsheet"
-	"github.com/IGLOU-EU/unioffice/testhelper"
-	"github.com/IGLOU-EU/unioffice/zippkg"
+	"github.com/zoeyfyi/unioffice/spreadsheet"
+	"github.com/zoeyfyi/unioffice/testhelper"
+	"github.com/zoeyfyi/unioffice/zippkg"
 )
 
 func TestStyleSheetUnmarshal(t *testing.T) {

@@ -8,8 +8,8 @@
 package document
 
 import (
-	st "github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/IGLOU-EU/unioffice/schema/soo/wml"
+	st "github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/zoeyfyi/unioffice/schema/soo/wml"
 )
 
 // TableLook is the conditional formatting associated with a table style that

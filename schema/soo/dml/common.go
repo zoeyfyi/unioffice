@@ -16,8 +16,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
 )
 
 const ST_TextBulletSizePercentPattern = `0*((2[5-9])|([3-9][0-9])|([1-3][0-9][0-9])|400)%`

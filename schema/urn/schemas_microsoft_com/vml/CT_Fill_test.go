@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/urn/schemas_microsoft_com/vml"
+	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/vml"
 )
 
 func TestCT_FillConstructor(t *testing.T) {

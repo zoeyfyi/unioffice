@@ -10,7 +10,7 @@ package format_test
 import (
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/spreadsheet/format"
+	"github.com/zoeyfyi/unioffice/spreadsheet/format"
 )
 
 func TestCellFormattingNumber(t *testing.T) {

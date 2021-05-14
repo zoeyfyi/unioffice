@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"regexp"
 
-	"github.com/IGLOU-EU/unioffice"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pkg/content_types"
+	"github.com/zoeyfyi/unioffice"
+	"github.com/zoeyfyi/unioffice/schema/soo/pkg/content_types"
 )
 
 // ContentTypes is the top level "[Content_Types].xml" in a zip package.

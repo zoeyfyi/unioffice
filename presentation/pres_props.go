@@ -8,8 +8,8 @@
 package presentation
 
 import (
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
-	"github.com/IGLOU-EU/unioffice/schema/soo/pml"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/zoeyfyi/unioffice/schema/soo/pml"
 )
 
 // PresentationProperties contains document specific properties.

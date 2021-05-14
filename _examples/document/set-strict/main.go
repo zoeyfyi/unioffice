@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/IGLOU-EU/unioffice/document"
+	"github.com/zoeyfyi/unioffice/document"
 )
 
 func main() {

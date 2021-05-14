@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/common"
+	"github.com/zoeyfyi/unioffice/common"
 )
 
 func TestNewAppDefaultProperties(t *testing.T) {
@@ -19,7 +19,7 @@ func TestNewAppDefaultProperties(t *testing.T) {
 	if ap.X() == nil {
 		t.Errorf("expected non-nil internal element")
 	}
-	if got := ap.Application(); got != "github.com/IGLOU-EU/unioffice" {
+	if got := ap.Application(); got != "github.com/zoeyfyi/unioffice" {
 		t.Errorf("unexpected application: %s", got)
 	}
 

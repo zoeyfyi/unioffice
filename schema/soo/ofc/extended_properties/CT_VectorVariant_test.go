@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/IGLOU-EU/unioffice/schema/soo/ofc/extended_properties"
+	"github.com/zoeyfyi/unioffice/schema/soo/ofc/extended_properties"
 )
 
 func TestCT_VectorVariantConstructor(t *testing.T) {

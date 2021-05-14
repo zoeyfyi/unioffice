@@ -8,9 +8,9 @@
 package chart
 
 import (
-	"github.com/IGLOU-EU/unioffice/drawing"
-	"github.com/IGLOU-EU/unioffice/schema/soo/dml"
-	crt "github.com/IGLOU-EU/unioffice/schema/soo/dml/chart"
+	"github.com/zoeyfyi/unioffice/drawing"
+	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	crt "github.com/zoeyfyi/unioffice/schema/soo/dml/chart"
 )
 
 // ScatterChartSeries is the data series for a scatter chart.
