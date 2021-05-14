@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package relationships ;import (_f "encoding/xml";_a "fmt";_c "github.com/unidoc/unioffice";);type Relationship struct{CT_Relationship };func (_ddga *CT_Relationships )MarshalXML (e *_f .Encoder ,start _f .StartElement )error {e .EncodeToken (start );if _ddga .Relationship !=nil {_agf :=_f .StartElement {Name :_f .Name {Local :"\u0052\u0065\u006ca\u0074\u0069\u006f\u006e\u0073\u0068\u0069\u0070"}};for _ ,_ee :=range _ddga .Relationship {e .EncodeElement (_ee ,_agf );};};e .EncodeToken (_f .EndElement {Name :start .Name });return nil ;};
+package relationships ;import (_f "encoding/xml";_a "fmt";_c "github.com/zoeyfyi/unioffice";);type Relationship struct{CT_Relationship };func (_ddga *CT_Relationships )MarshalXML (e *_f .Encoder ,start _f .StartElement )error {e .EncodeToken (start );if _ddga .Relationship !=nil {_agf :=_f .StartElement {Name :_f .Name {Local :"\u0052\u0065\u006ca\u0074\u0069\u006f\u006e\u0073\u0068\u0069\u0070"}};for _ ,_ee :=range _ddga .Relationship {e .EncodeElement (_ee ,_agf );};};e .EncodeToken (_f .EndElement {Name :start .Name });return nil ;};
 
 // Validate validates the CT_Relationships and its children
 func (_ef *CT_Relationships )Validate ()error {return _ef .ValidateWithPath ("\u0043\u0054_\u0052\u0065\u006ca\u0074\u0069\u006f\u006e\u0073\u0068\u0069\u0070\u0073");};func (_ddd *ST_TargetMode )UnmarshalXMLAttr (attr _f .Attr )error {switch attr .Value {case "":*_ddd =0;case "\u0045\u0078\u0074\u0065\u0072\u006e\u0061\u006c":*_ddd =1;case "\u0049\u006e\u0074\u0065\u0072\u006e\u0061\u006c":*_ddd =2;};return nil ;};

@@ -13,7 +13,7 @@
 // OOXML document formats.
 //
 // Package common contains common properties used by the subpackages.
-package common ;import (_af "archive/zip";_da "bytes";_c "encoding/xml";_a "errors";_ee "fmt";_gfe "github.com/unidoc/unioffice";_ggc "github.com/unidoc/unioffice/common/tempstorage";_aa "github.com/unidoc/unioffice/common/tempstorage/diskstore";_eb "github.com/unidoc/unioffice/measurement";_ggb "github.com/unidoc/unioffice/schema/soo/dml";_ef "github.com/unidoc/unioffice/schema/soo/ofc/custom_properties";_daf "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";_aaea "github.com/unidoc/unioffice/schema/soo/ofc/extended_properties";_db "github.com/unidoc/unioffice/schema/soo/pkg/content_types";_ge "github.com/unidoc/unioffice/schema/soo/pkg/metadata/core_properties";_aae "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_ec "github.com/unidoc/unioffice/zippkg";_gg "image";_ "image/gif";_ "image/jpeg";_ "image/png";_d "os";_g "reflect";_fff "regexp";_cg "strconv";_cb "strings";_e "time";);func (_cdad CustomProperties )SetPropertyAsBool (name string ,b bool ){_dbec :=_cdad .getNewProperty (name );_dbec .Bool =&b ;_cdad .setOrReplaceProperty (_dbec );};
+package common ;import (_af "archive/zip";_da "bytes";_c "encoding/xml";_a "errors";_ee "fmt";_gfe "github.com/zoeyfyi/unioffice";_ggc "github.com/zoeyfyi/unioffice/common/tempstorage";_aa "github.com/zoeyfyi/unioffice/common/tempstorage/diskstore";_eb "github.com/zoeyfyi/unioffice/measurement";_ggb "github.com/zoeyfyi/unioffice/schema/soo/dml";_ef "github.com/zoeyfyi/unioffice/schema/soo/ofc/custom_properties";_daf "github.com/zoeyfyi/unioffice/schema/soo/ofc/docPropsVTypes";_aaea "github.com/zoeyfyi/unioffice/schema/soo/ofc/extended_properties";_db "github.com/zoeyfyi/unioffice/schema/soo/pkg/content_types";_ge "github.com/zoeyfyi/unioffice/schema/soo/pkg/metadata/core_properties";_aae "github.com/zoeyfyi/unioffice/schema/soo/pkg/relationships";_ec "github.com/zoeyfyi/unioffice/zippkg";_gg "image";_ "image/gif";_ "image/jpeg";_ "image/png";_d "os";_g "reflect";_fff "regexp";_cg "strconv";_cb "strings";_e "time";);func (_cdad CustomProperties )SetPropertyAsBool (name string ,b bool ){_dbec :=_cdad .getNewProperty (name );_dbec .Bool =&b ;_cdad .setOrReplaceProperty (_dbec );};
 
 // ApplicationVersion returns the version of the application that created the
 // document.
@@ -260,7 +260,7 @@ func (_efd *DocBase )GetOrCreateCustomProperties ()CustomProperties {if _efd .Cu
 func (_dg AppProperties )SetDocSecurity (v int32 ){_dg ._ede .DocSecurity =_gfe .Int32 (v )};
 
 // Application returns the name of the application that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/zoeyfyi/unioffice
 func (_bcfg AppProperties )Application ()string {if _bcfg ._ede .Application !=nil {return *_bcfg ._ede .Application ;};return "";};
 
 // Relationship is a relationship within a .rels file.
@@ -342,7 +342,7 @@ func (_agb Relationships )AddHyperlink (target string )Hyperlink {_fca :=_agb .A
 func (_bbc CoreProperties )Description ()string {if _bbc ._agf .Description !=nil {return string (_bbc ._agf .Description .Data );};return "";};const Version ="\u0031\u002e\u0031\u0030\u002e\u0030";var ReleasedAt =_e .Date (_gec ,_edec ,_gffb ,_cef ,_eed ,0,0,_e .UTC );const _gffb =23;
 
 // Company returns the name of the company that created the document.
-// For unioffice created documents, it defaults to github.com/unidoc/unioffice
+// For unioffice created documents, it defaults to github.com/zoeyfyi/unioffice
 func (_edf AppProperties )Company ()string {if _edf ._ede .Company !=nil {return *_edf ._ede .Company ;};return "";};const _cef =19;
 
 // SetContentStatus records the content status of the document.

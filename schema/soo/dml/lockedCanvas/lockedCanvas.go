@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package lockedCanvas ;import (_e "encoding/xml";_ed "fmt";_g "github.com/unidoc/unioffice";_fb "github.com/unidoc/unioffice/schema/soo/dml";);
+package lockedCanvas ;import (_e "encoding/xml";_ed "fmt";_g "github.com/zoeyfyi/unioffice";_fb "github.com/zoeyfyi/unioffice/schema/soo/dml";);
 
 // ValidateWithPath validates the LockedCanvas and its children, prefixing error messages with path
 func (_d *LockedCanvas )ValidateWithPath (path string )error {if _af :=_d .CT_GvmlGroupShape .ValidateWithPath (path );_af !=nil {return _af ;};return nil ;};type LockedCanvas struct{_fb .CT_GvmlGroupShape };

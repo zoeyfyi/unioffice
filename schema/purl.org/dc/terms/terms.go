@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package terms ;import (_f "encoding/xml";_d "fmt";_fd "github.com/unidoc/unioffice";_ff "github.com/unidoc/unioffice/schema/purl.org/dc/elements";);
+package terms ;import (_f "encoding/xml";_d "fmt";_fd "github.com/zoeyfyi/unioffice";_ff "github.com/zoeyfyi/unioffice/schema/purl.org/dc/elements";);
 
 // Validate validates the ElementOrRefinementContainer and its children
 func (_fb *ElementOrRefinementContainer )Validate ()error {return _fb .ValidateWithPath ("\u0045\u006c\u0065\u006de\u006e\u0074\u004f\u0072\u0052\u0065\u0066\u0069\u006e\u0065m\u0065n\u0074\u0043\u006f\u006e\u0074\u0061\u0069n\u0065\u0072");};

@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package dml ;import (_d "encoding/xml";_a "fmt";_g "github.com/unidoc/unioffice";_da "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_cb "regexp";_cbd "strconv";_db "time";);
+package dml ;import (_d "encoding/xml";_a "fmt";_g "github.com/zoeyfyi/unioffice";_da "github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes";_cb "regexp";_cbd "strconv";_db "time";);
 
 // Validate validates the Tbl and its children
 func (_fcfgc *Tbl )Validate ()error {return _fcfgc .ValidateWithPath ("\u0054\u0062\u006c")};func (_gaeg *CT_GrayscaleEffect )MarshalXML (e *_d .Encoder ,start _d .StartElement )error {e .EncodeToken (start );e .EncodeToken (_d .EndElement {Name :start .Name });return nil ;};

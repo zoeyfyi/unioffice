@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chart ;import (_d "fmt";_e "github.com/unidoc/unioffice";_ed "github.com/unidoc/unioffice/color";_fb "github.com/unidoc/unioffice/drawing";_a "github.com/unidoc/unioffice/measurement";_dc "github.com/unidoc/unioffice/schema/soo/dml";_g "github.com/unidoc/unioffice/schema/soo/dml/chart";_b "math/rand";);func (_eb nullAxis )AxisID ()uint32 {return 0};func (_gac CategoryAxis )SetMinorTickMark (m _g .ST_TickMark ){if m ==_g .ST_TickMarkUnset {_gac ._fab .MinorTickMark =nil ;}else {_gac ._fab .MinorTickMark =_g .NewCT_TickMark ();_gac ._fab .MinorTickMark .ValAttr =m ;};};type Marker struct{_ege *_g .CT_Marker };
+package chart ;import (_d "fmt";_e "github.com/zoeyfyi/unioffice";_ed "github.com/zoeyfyi/unioffice/color";_fb "github.com/zoeyfyi/unioffice/drawing";_a "github.com/zoeyfyi/unioffice/measurement";_dc "github.com/zoeyfyi/unioffice/schema/soo/dml";_g "github.com/zoeyfyi/unioffice/schema/soo/dml/chart";_b "math/rand";);func (_eb nullAxis )AxisID ()uint32 {return 0};func (_gac CategoryAxis )SetMinorTickMark (m _g .ST_TickMark ){if m ==_g .ST_TickMarkUnset {_gac ._fab .MinorTickMark =nil ;}else {_gac ._fab .MinorTickMark =_g .NewCT_TickMark ();_gac ._fab .MinorTickMark .ValAttr =m ;};};type Marker struct{_ege *_g .CT_Marker };
 
 // Properties returns the bar chart series shape properties.
 func (_bcb AreaChartSeries )Properties ()_fb .ShapeProperties {if _bcb ._bgc .SpPr ==nil {_bcb ._bgc .SpPr =_dc .NewCT_ShapeProperties ();};return _fb .MakeShapeProperties (_bcb ._bgc .SpPr );};func (_gbbdg SeriesAxis )InitializeDefaults (){};type Title struct{_adcf *_g .CT_Title };

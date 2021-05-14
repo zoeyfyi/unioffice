@@ -11,7 +11,7 @@
 
 // Package license helps manage commercial licenses and check if they
 // are valid for the version of UniOffice used.
-package license ;import _a "github.com/unidoc/unioffice/internal/license";const (LicenseTierUnlicensed =_a .LicenseTierUnlicensed ;LicenseTierCommunity =_a .LicenseTierCommunity ;LicenseTierIndividual =_a .LicenseTierIndividual ;LicenseTierBusiness =_a .LicenseTierBusiness ;);
+package license ;import _a "github.com/zoeyfyi/unioffice/internal/license";const (LicenseTierUnlicensed =_a .LicenseTierUnlicensed ;LicenseTierCommunity =_a .LicenseTierCommunity ;LicenseTierIndividual =_a .LicenseTierIndividual ;LicenseTierBusiness =_a .LicenseTierBusiness ;);
 
 // SetMeteredKey sets the metered License API key required for SaaS operation.
 // Document usage is reported periodically for the product to function correctly.

@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package chartDrawing ;import (_c "encoding/xml";_bc "fmt";_d "github.com/unidoc/unioffice";_be "github.com/unidoc/unioffice/schema/soo/dml";_b "strconv";);
+package chartDrawing ;import (_c "encoding/xml";_bc "fmt";_d "github.com/zoeyfyi/unioffice";_be "github.com/zoeyfyi/unioffice/schema/soo/dml";_b "strconv";);
 
 // ValidateWithPath validates the EG_ObjectChoices and its children, prefixing error messages with path
 func (_bfe *EG_ObjectChoices )ValidateWithPath (path string )error {if _bfe .Choice !=nil {if _cfe :=_bfe .Choice .ValidateWithPath (path +"\u002fC\u0068\u006f\u0069\u0063\u0065");_cfe !=nil {return _cfe ;};};return nil ;};type CT_Shape struct{MacroAttr *string ;TextlinkAttr *string ;FLocksTextAttr *bool ;FPublishedAttr *bool ;NvSpPr *CT_ShapeNonVisual ;SpPr *_be .CT_ShapeProperties ;Style *_be .CT_ShapeStyle ;TxBody *_be .CT_TextBody ;};

@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package core_properties ;import (_ce "encoding/xml";_e "fmt";_f "github.com/unidoc/unioffice";_eb "time";);type CT_CoreProperties struct{Category *string ;ContentStatus *string ;Created *_f .XSDAny ;Creator *_f .XSDAny ;Description *_f .XSDAny ;Identifier *_f .XSDAny ;Keywords *CT_Keywords ;Language *_f .XSDAny ;LastModifiedBy *string ;LastPrinted *_eb .Time ;Modified *_f .XSDAny ;Revision *string ;Subject *_f .XSDAny ;Title *_f .XSDAny ;Version *string ;};
+package core_properties ;import (_ce "encoding/xml";_e "fmt";_f "github.com/zoeyfyi/unioffice";_eb "time";);type CT_CoreProperties struct{Category *string ;ContentStatus *string ;Created *_f .XSDAny ;Creator *_f .XSDAny ;Description *_f .XSDAny ;Identifier *_f .XSDAny ;Keywords *CT_Keywords ;Language *_f .XSDAny ;LastModifiedBy *string ;LastPrinted *_eb .Time ;Modified *_f .XSDAny ;Revision *string ;Subject *_f .XSDAny ;Title *_f .XSDAny ;Version *string ;};
 
 // ValidateWithPath validates the CT_Keyword and its children, prefixing error messages with path
 func (_cg *CT_Keyword )ValidateWithPath (path string )error {return nil };

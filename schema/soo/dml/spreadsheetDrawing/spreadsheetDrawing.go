@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package spreadsheetDrawing ;import (_b "encoding/xml";_f "fmt";_ae "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/schema/soo/dml";_a "strconv";);
+package spreadsheetDrawing ;import (_b "encoding/xml";_f "fmt";_ae "github.com/zoeyfyi/unioffice";_d "github.com/zoeyfyi/unioffice/schema/soo/dml";_a "strconv";);
 
 // ValidateWithPath validates the CT_PictureNonVisual and its children, prefixing error messages with path
 func (_gcb *CT_PictureNonVisual )ValidateWithPath (path string )error {if _ffc :=_gcb .CNvPr .ValidateWithPath (path +"\u002f\u0043\u004e\u0076\u0050\u0072");_ffc !=nil {return _ffc ;};if _afac :=_gcb .CNvPicPr .ValidateWithPath (path +"\u002fC\u004e\u0076\u0050\u0069\u0063\u0050r");_afac !=nil {return _afac ;};return nil ;};type CT_GroupShapeNonVisual struct{CNvPr *_d .CT_NonVisualDrawingProps ;CNvGrpSpPr *_d .CT_NonVisualGroupDrawingShapeProps ;};type CT_AbsoluteAnchor struct{Pos *_d .CT_Point2D ;Ext *_d .CT_PositiveSize2D ;Choice *EG_ObjectChoicesChoice ;ClientData *CT_AnchorClientData ;};

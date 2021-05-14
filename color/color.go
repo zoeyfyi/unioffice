@@ -11,7 +11,7 @@
 
 // Package color provides color handling structures and functions for use across
 // all of the document types.
-package color ;import (_f "fmt";_e "github.com/unidoc/unioffice";);var Navy =Color {0x00,0x00,0x80,255,false };var DarkOliveGreen =Color {0x55,0x6B,0x2F,255,false };var Aquamarine =Color {0x7F,0xFF,0xD4,255,false };
+package color ;import (_f "fmt";_e "github.com/zoeyfyi/unioffice";);var Navy =Color {0x00,0x00,0x80,255,false };var DarkOliveGreen =Color {0x55,0x6B,0x2F,255,false };var Aquamarine =Color {0x7F,0xFF,0xD4,255,false };
 
 // Color is a 24 bit color that can be converted to
 // internal ECMA-376 formats as needed.

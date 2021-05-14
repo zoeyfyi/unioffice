@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package pml ;import (_g "encoding/xml";_dd "fmt";_fa "github.com/unidoc/unioffice";_a "github.com/unidoc/unioffice/schema/soo/dml";_ag "github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes";_f "strconv";_gb "time";);
+package pml ;import (_g "encoding/xml";_dd "fmt";_fa "github.com/zoeyfyi/unioffice";_a "github.com/zoeyfyi/unioffice/schema/soo/dml";_ag "github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes";_f "strconv";_gb "time";);
 
 // ValidateWithPath validates the CT_TLBuildDiagram and its children, prefixing error messages with path
 func (_gdffg *CT_TLBuildDiagram )ValidateWithPath (path string )error {if _edbfd :=_gdffg .BldAttr .ValidateWithPath (path +"\u002f\u0042\u006c\u0064\u0041\u0074\u0074\u0072");_edbfd !=nil {return _edbfd ;};return nil ;};

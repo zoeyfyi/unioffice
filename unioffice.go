@@ -26,11 +26,11 @@ spreadsheet.Workbook and presentation.Presentation), the other wrapper types are
 value types with non-pointer methods.  They exist solely to modify and return
 data from one or more XML types.
 
-The packages of interest are github.com/unidoc/unioffice/document,
-unidoc/unioffice/spreadsheet and github.com/unidoc/unioffice/presentation.
+The packages of interest are github.com/zoeyfyi/unioffice/document,
+unidoc/unioffice/spreadsheet and github.com/zoeyfyi/unioffice/presentation.
 
 */
-package unioffice ;import (_d "encoding/xml";_eb "errors";_ac "fmt";_acd "github.com/unidoc/unioffice/algo";_de "log";_e "reflect";_a "strings";_cc "unicode";);func (_cgb *XSDAny )collectNS (_faa *nsSet ){if _cgb .XMLName .Space !=""{_faa .getPrefix (_cgb .XMLName .Space );};for _ ,_cde :=range _cgb .Attrs {if _cde .Name .Space !=""&&_cde .Name .Space !="\u0078\u006d\u006cn\u0073"{_faa .getPrefix (_cde .Name .Space );};};for _ ,_adg :=range _cgb .Nodes {_adg .collectNS (_faa );};};const (Unknown DocType =iota ;DocTypeSpreadsheet ;DocTypeDocument ;DocTypePresentation ;);var _g =map[string ]interface{}{};
+package unioffice ;import (_d "encoding/xml";_eb "errors";_ac "fmt";_acd "github.com/zoeyfyi/unioffice/algo";_de "log";_e "reflect";_a "strings";_cc "unicode";);func (_cgb *XSDAny )collectNS (_faa *nsSet ){if _cgb .XMLName .Space !=""{_faa .getPrefix (_cgb .XMLName .Space );};for _ ,_cde :=range _cgb .Attrs {if _cde .Name .Space !=""&&_cde .Name .Space !="\u0078\u006d\u006cn\u0073"{_faa .getPrefix (_cde .Name .Space );};};for _ ,_adg :=range _cgb .Nodes {_adg .collectNS (_faa );};};const (Unknown DocType =iota ;DocTypeSpreadsheet ;DocTypeDocument ;DocTypePresentation ;);var _g =map[string ]interface{}{};
 
 // AbsoluteFilename returns the full path to a file from the root of the zip
 // container. Index is used in some cases for files which there may be more than

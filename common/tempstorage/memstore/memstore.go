@@ -11,7 +11,7 @@
 
 // Package memstore implements tempStorage interface
 // by using memory as a storage
-package memstore ;import (_e "encoding/hex";_gg "errors";_d "fmt";_ggb "github.com/unidoc/unioffice/common/tempstorage";_ac "io";_g "io/ioutil";_f "math/rand";_c "sync";);type memFile struct{_ff *memDataCell ;_db int64 ;};
+package memstore ;import (_e "encoding/hex";_gg "errors";_d "fmt";_ggb "github.com/zoeyfyi/unioffice/common/tempstorage";_ac "io";_g "io/ioutil";_f "math/rand";_c "sync";);type memFile struct{_ff *memDataCell ;_db int64 ;};
 
 // Add reads a file from a disk and adds it to the storage
 func (_gda *memStorage )Add (path string )error {_ ,_ag :=_gda ._gf .Load (path );if _ag {return nil ;};_gee ,_ce :=_g .ReadFile (path );if _ce !=nil {return _ce ;};_gda ._gf .Store (path ,&memDataCell {_dc :path ,_gc :_gee ,_fb :int64 (len (_gee ))});return nil ;};

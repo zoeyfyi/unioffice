@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package extended_properties ;import (_c "encoding/xml";_e "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/schema/soo/ofc/docPropsVTypes";);
+package extended_properties ;import (_c "encoding/xml";_e "github.com/zoeyfyi/unioffice";_d "github.com/zoeyfyi/unioffice/schema/soo/ofc/docPropsVTypes";);
 
 // Validate validates the CT_VectorVariant and its children
 func (_gee *CT_VectorVariant )Validate ()error {return _gee .ValidateWithPath ("\u0043\u0054_\u0056\u0065\u0063t\u006f\u0072\u0056\u0061\u0072\u0069\u0061\u006e\u0074");};type CT_Properties struct{

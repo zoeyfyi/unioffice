@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package drawing ;import (_b "github.com/unidoc/unioffice";_d "github.com/unidoc/unioffice/color";_da "github.com/unidoc/unioffice/measurement";_ge "github.com/unidoc/unioffice/schema/soo/dml";);
+package drawing ;import (_b "github.com/zoeyfyi/unioffice";_d "github.com/zoeyfyi/unioffice/color";_da "github.com/zoeyfyi/unioffice/measurement";_ge "github.com/zoeyfyi/unioffice/schema/soo/dml";);
 
 // ParagraphProperties allows controlling paragraph properties.
 type ParagraphProperties struct{_dec *_ge .CT_TextParagraphProperties ;};

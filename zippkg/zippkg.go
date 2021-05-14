@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package zippkg ;import (_g "archive/zip";_dab "bytes";_da "encoding/xml";_f "fmt";_a "github.com/unidoc/unioffice";_cc "github.com/unidoc/unioffice/algo";_cg "github.com/unidoc/unioffice/common/tempstorage";_ee "github.com/unidoc/unioffice/schema/soo/pkg/relationships";_cb "io";_b "path";_c "sort";_db "strings";_d "time";);
+package zippkg ;import (_g "archive/zip";_dab "bytes";_da "encoding/xml";_f "fmt";_a "github.com/zoeyfyi/unioffice";_cc "github.com/zoeyfyi/unioffice/algo";_cg "github.com/zoeyfyi/unioffice/common/tempstorage";_ee "github.com/zoeyfyi/unioffice/schema/soo/pkg/relationships";_cb "io";_b "path";_c "sort";_db "strings";_d "time";);
 
 // MarshalXML creates a file inside of a zip and marshals an object as xml, prefixing it
 // with a standard XML header.
