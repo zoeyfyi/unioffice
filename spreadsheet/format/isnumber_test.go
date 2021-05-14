@@ -10,7 +10,7 @@ package format_test
 import (
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/spreadsheet/format"
+	"github.com/unidoc/unioffice/spreadsheet/format"
 )
 
 func TestIsNumber(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/unidoc/unioffice/schema/soo/dml"
 )
 
 type WdCT_EffectExtent struct {

@@ -12,7 +12,7 @@ package wml
 import (
 	"encoding/xml"
 
-	"github.com/zoeyfyi/unioffice"
+	"github.com/unidoc/unioffice"
 )
 
 type Recipients struct {

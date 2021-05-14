@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/zoeyfyi/unioffice"
+	"github.com/unidoc/unioffice"
 )
 
 type CT_OutlineViewSlideList struct {

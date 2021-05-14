@@ -8,10 +8,10 @@
 package chart
 
 import (
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/drawing"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
-	crt "github.com/zoeyfyi/unioffice/schema/soo/dml/chart"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/drawing"
+	"github.com/unidoc/unioffice/schema/soo/dml"
+	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
 )
 
 // Surface3DChart is a 3D view of a surface chart.

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/zoeyfyi/unioffice/color"
-	"github.com/zoeyfyi/unioffice/schema/soo/pml"
+	"github.com/unidoc/unioffice/color"
+	"github.com/unidoc/unioffice/schema/soo/pml"
 
-	"github.com/zoeyfyi/unioffice/presentation"
+	"github.com/unidoc/unioffice/presentation"
 )
 
 func main() {
@@ -32,7 +32,7 @@ func main() {
 	ph, _ := sld.GetPlaceholder(pml.ST_PlaceholderTypeTitle)
 	ph.SetText("Using gooxml")
 	ph, _ = sld.GetPlaceholder(pml.ST_PlaceholderTypeBody)
-	ph.SetText("Created with github.com/zoeyfyi/unioffice/")
+	ph.SetText("Created with github.com/unidoc/unioffice/")
 
 	tac, _ := ppt.GetLayoutByName("Title and Content")
 

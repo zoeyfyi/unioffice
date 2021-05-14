@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/purl.org/dc/terms"
+	"github.com/unidoc/unioffice/schema/purl.org/dc/terms"
 )
 
 func TestPeriodConstructor(t *testing.T) {

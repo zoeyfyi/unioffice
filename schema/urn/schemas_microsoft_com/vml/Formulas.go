@@ -12,7 +12,7 @@ package vml
 import (
 	"encoding/xml"
 
-	"github.com/zoeyfyi/unioffice"
+	"github.com/unidoc/unioffice"
 )
 
 type Formulas struct {

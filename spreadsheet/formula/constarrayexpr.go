@@ -7,7 +7,7 @@
 
 package formula
 
-import "github.com/zoeyfyi/unioffice/spreadsheet/update"
+import "github.com/unidoc/unioffice/spreadsheet/update"
 
 // ConstArrayExpr is a constant array expression.
 type ConstArrayExpr struct {

@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/dml/spreadsheetDrawing"
+	"github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing"
 )
 
 func TestCT_GraphicalObjectFrameNonVisualConstructor(t *testing.T) {

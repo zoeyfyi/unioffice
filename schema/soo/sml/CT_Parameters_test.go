@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/sml"
+	"github.com/unidoc/unioffice/schema/soo/sml"
 )
 
 func TestCT_ParametersConstructor(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/zoeyfyi/unioffice/common"
-	"github.com/zoeyfyi/unioffice/schema/soo/pml"
+	"github.com/unidoc/unioffice/common"
+	"github.com/unidoc/unioffice/schema/soo/pml"
 )
 
 // SlideMaster is the slide master for a presentation.

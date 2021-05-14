@@ -22,8 +22,8 @@ spreadsheet.Workbook and presentation.Presentation), the other wrapper types are
 value types with non-pointer methods.  They exist solely to modify and return
 data from one or more XML types.
 
-The packages of interest are github.com/zoeyfyi/unioffice/document,
-unidoc/unioffice/spreadsheet and github.com/zoeyfyi/unioffice/presentation.
+The packages of interest are github.com/unidoc/unioffice/document,
+unidoc/unioffice/spreadsheet and github.com/unidoc/unioffice/presentation.
 
 */
-package unioffice // import "github.com/zoeyfyi/unioffice"
+package unioffice // import "github.com/unidoc/unioffice"

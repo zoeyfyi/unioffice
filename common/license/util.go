@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zoeyfyi/unioffice/common"
+	"github.com/unidoc/unioffice/common"
 )
 
 // Defaults to the open source license.

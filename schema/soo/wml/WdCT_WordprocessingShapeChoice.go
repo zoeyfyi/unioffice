@@ -12,8 +12,8 @@ package wml
 import (
 	"encoding/xml"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/schema/soo/dml"
 )
 
 type WdCT_WordprocessingShapeChoice struct {

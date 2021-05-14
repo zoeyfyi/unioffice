@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/schema/soo/dml"
 )
 
 func ParseUnionST_TLTime(s string) (ST_TLTime, error) {

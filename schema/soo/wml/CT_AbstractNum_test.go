@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/wml"
+	"github.com/unidoc/unioffice/schema/soo/wml"
 )
 
 func TestCT_AbstractNumConstructor(t *testing.T) {

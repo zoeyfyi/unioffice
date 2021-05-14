@@ -10,7 +10,7 @@ package chart_test
 import (
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/chart"
+	"github.com/unidoc/unioffice/chart"
 )
 
 func TestNullAxis(t *testing.T) {

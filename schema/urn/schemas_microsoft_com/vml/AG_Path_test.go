@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/vml"
+	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/vml"
 )
 
 func TestAG_PathConstructor(t *testing.T) {

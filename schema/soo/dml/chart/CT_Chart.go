@@ -12,7 +12,7 @@ package chart
 import (
 	"encoding/xml"
 
-	"github.com/zoeyfyi/unioffice"
+	"github.com/unidoc/unioffice"
 )
 
 type CT_Chart struct {

@@ -21,17 +21,17 @@ import (
 	"os"
 	"path"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/color"
-	"github.com/zoeyfyi/unioffice/common"
-	"github.com/zoeyfyi/unioffice/common/license"
-	"github.com/zoeyfyi/unioffice/measurement"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
-	crt "github.com/zoeyfyi/unioffice/schema/soo/dml/chart"
-	"github.com/zoeyfyi/unioffice/schema/soo/ofc/sharedTypes"
-	"github.com/zoeyfyi/unioffice/schema/soo/pkg/relationships"
-	"github.com/zoeyfyi/unioffice/schema/soo/pml"
-	"github.com/zoeyfyi/unioffice/zippkg"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/color"
+	"github.com/unidoc/unioffice/common"
+	"github.com/unidoc/unioffice/common/license"
+	"github.com/unidoc/unioffice/measurement"
+	"github.com/unidoc/unioffice/schema/soo/dml"
+	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
+	"github.com/unidoc/unioffice/schema/soo/ofc/sharedTypes"
+	"github.com/unidoc/unioffice/schema/soo/pkg/relationships"
+	"github.com/unidoc/unioffice/schema/soo/pml"
+	"github.com/unidoc/unioffice/zippkg"
 )
 
 // Presentation is the a presentation base document.

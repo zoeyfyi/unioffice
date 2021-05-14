@@ -8,7 +8,7 @@
 package unioffice_test
 
 import "testing"
-import "github.com/zoeyfyi/unioffice"
+import "github.com/unidoc/unioffice"
 
 func TestWMLFilenames(t *testing.T) {
 	td := []struct {

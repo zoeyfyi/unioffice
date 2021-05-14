@@ -8,8 +8,8 @@
 package spreadsheet
 
 import (
-	"github.com/zoeyfyi/unioffice/measurement"
-	sd "github.com/zoeyfyi/unioffice/schema/soo/dml/spreadsheetDrawing"
+	"github.com/unidoc/unioffice/measurement"
+	sd "github.com/unidoc/unioffice/schema/soo/dml/spreadsheetDrawing"
 )
 
 // OneCellAnchor is anchored to a top-left cell with a fixed with/height

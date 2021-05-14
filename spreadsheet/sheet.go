@@ -14,14 +14,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zoeyfyi/unioffice/spreadsheet/formula"
-	"github.com/zoeyfyi/unioffice/spreadsheet/reference"
-	"github.com/zoeyfyi/unioffice/spreadsheet/update"
+	"github.com/unidoc/unioffice/spreadsheet/formula"
+	"github.com/unidoc/unioffice/spreadsheet/reference"
+	"github.com/unidoc/unioffice/spreadsheet/update"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/common"
-	"github.com/zoeyfyi/unioffice/schema/soo/sml"
-	"github.com/zoeyfyi/unioffice/vmldrawing"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/common"
+	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/unidoc/unioffice/vmldrawing"
 )
 
 // Sheet is a single sheet within a workbook.

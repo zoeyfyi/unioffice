@@ -13,8 +13,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/zippkg"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/zippkg"
 )
 
 // Read reads a document from an io.Reader.

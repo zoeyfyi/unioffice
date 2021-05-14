@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoeyfyi/unioffice/measurement"
-	"github.com/zoeyfyi/unioffice/schema/soo/sml"
-	"github.com/zoeyfyi/unioffice/spreadsheet"
-	"github.com/zoeyfyi/unioffice/spreadsheet/formula"
+	"github.com/unidoc/unioffice/measurement"
+	"github.com/unidoc/unioffice/schema/soo/sml"
+	"github.com/unidoc/unioffice/spreadsheet"
+	"github.com/unidoc/unioffice/spreadsheet/formula"
 )
 
 // Input is an input formula string.

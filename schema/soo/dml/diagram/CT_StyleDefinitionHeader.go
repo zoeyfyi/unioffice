@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/schema/soo/dml"
 )
 
 type CT_StyleDefinitionHeader struct {

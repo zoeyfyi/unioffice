@@ -13,10 +13,10 @@ import (
 	"encoding/xml"
 	"strconv"
 
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/excel"
-	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
-	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/word"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel"
+	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/powerpoint"
+	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/word"
 )
 
 type Image struct {

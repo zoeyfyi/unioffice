@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/pkg/content_types"
+	"github.com/unidoc/unioffice/schema/soo/pkg/content_types"
 )
 
 func TestTypesConstructor(t *testing.T) {

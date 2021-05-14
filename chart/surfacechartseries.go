@@ -8,11 +8,11 @@
 package chart
 
 import (
-	"github.com/zoeyfyi/unioffice/color"
-	"github.com/zoeyfyi/unioffice/drawing"
-	"github.com/zoeyfyi/unioffice/measurement"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
-	crt "github.com/zoeyfyi/unioffice/schema/soo/dml/chart"
+	"github.com/unidoc/unioffice/color"
+	"github.com/unidoc/unioffice/drawing"
+	"github.com/unidoc/unioffice/measurement"
+	"github.com/unidoc/unioffice/schema/soo/dml"
+	crt "github.com/unidoc/unioffice/schema/soo/dml/chart"
 )
 
 type SurfaceChartSeries struct {

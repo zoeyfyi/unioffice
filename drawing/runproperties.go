@@ -8,10 +8,10 @@
 package drawing
 
 import (
-	"github.com/zoeyfyi/unioffice"
-	"github.com/zoeyfyi/unioffice/color"
-	"github.com/zoeyfyi/unioffice/measurement"
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/unidoc/unioffice"
+	"github.com/unidoc/unioffice/color"
+	"github.com/unidoc/unioffice/measurement"
+	"github.com/unidoc/unioffice/schema/soo/dml"
 )
 
 // RunProperties controls the run properties.

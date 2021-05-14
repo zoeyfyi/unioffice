@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/dml/chartDrawing"
+	"github.com/unidoc/unioffice/schema/soo/dml/chartDrawing"
 )
 
 func TestCT_GroupShapeChoiceConstructor(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/dml/diagram"
+	"github.com/unidoc/unioffice/schema/soo/dml/diagram"
 )
 
 func TestAG_ConstraintAttributesConstructor(t *testing.T) {

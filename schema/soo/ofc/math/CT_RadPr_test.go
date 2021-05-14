@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/ofc/math"
+	"github.com/unidoc/unioffice/schema/soo/ofc/math"
 )
 
 func TestCT_RadPrConstructor(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/dml"
+	"github.com/unidoc/unioffice/schema/soo/dml"
 )
 
 func TestCT_ConnectionConstructor(t *testing.T) {

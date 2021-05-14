@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/soo/pml"
+	"github.com/unidoc/unioffice/schema/soo/pml"
 )
 
 func TestCT_TLIterateIntervalTimeConstructor(t *testing.T) {

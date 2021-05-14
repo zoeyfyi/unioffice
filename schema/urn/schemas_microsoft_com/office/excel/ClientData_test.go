@@ -13,7 +13,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/schema/urn/schemas_microsoft_com/office/excel"
+	"github.com/unidoc/unioffice/schema/urn/schemas_microsoft_com/office/excel"
 )
 
 func TestClientDataConstructor(t *testing.T) {

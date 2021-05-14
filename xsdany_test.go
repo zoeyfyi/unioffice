@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice"
+	"github.com/unidoc/unioffice"
 )
 
 func TestXSDAny(t *testing.T) {

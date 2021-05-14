@@ -13,7 +13,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/zoeyfyi/unioffice/zippkg"
+	"github.com/unidoc/unioffice/zippkg"
 )
 
 type TestStruct struct {
